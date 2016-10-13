@@ -1,0 +1,26 @@
+{
+  "name": "Stack Overflow Counter",
+  "version": "0.4",
+  "description": "Counts the number of times you visit stackoverflow.com",
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "jquery.js",
+      "counter.js",
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "history",    
+    "background",
+    "webNavigation",
+    "http://*/*",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "counter.html",
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}

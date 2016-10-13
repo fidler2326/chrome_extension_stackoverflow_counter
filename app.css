@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+body{
+	min-width: 250px;
+	max-width: 250px;
+	color: #434A54;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+h2{
+	margin: 5px 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #eee;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
+table tr th{
+	height: 34px;
+	border-bottom: 1px solid #eee;
+	font-weight: 400;	
+}
+
+table tr td{
+	height: 34px;
+	border-bottom: 1px solid #eee;
+}
+
+.count{
+	padding: 5px 10px;	
+	border-radius: 8px;
+	color: #fff;
+}
+
+.count.day-count{
+	background-color: #3BAFDA;
+}
+	
+.count.yesterday-count{
+	background-color: #37BC9B;
+}
+
+.count.week-count{
+	background-color: #F6BB42;
+}
+
+.count.month-count{
+	background-color: #967ADC;
+}
+
+.count.all-count{
+	background-color: #D770AD;
+}
+
+#typedUrl_div{
+	word-wrap: break-word;
+}
